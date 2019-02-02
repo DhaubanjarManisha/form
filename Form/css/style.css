@@ -1,0 +1,122 @@
+*{
+margin:0;	
+padding:0;
+}
+	
+body{
+background-image:url(../img/img1.jpg);
+background-repeat :no-repeat;
+background-size:100% 150%;
+}
+
+h1{
+color: black;
+text-align:center;
+font-style:italic;
+padding:20px;
+background-color:#fdffff75;
+opacity:0.8;
+}
+
+h2{
+color: white;
+text-align:center;
+font-style:italic;
+padding:20px;
+}
+.clear{
+clear: both;
+}
+
+label{
+color: white;
+font-size:20px;
+font-style:italic;
+float:left;
+}
+
+label.hob{
+margin-right:130px;
+padding-bottom:7px;
+}
+label.gen{
+margin-right:130px;
+padding-bottom:7px;
+}
+
+
+.register{
+width:40%;
+margin:5px auto;
+background-color:black;
+opacity:0.8;
+padding: 5px;
+}
+
+#fullname, #password,#cpassword ,#email
+{
+	padding:5px;
+	width:60%;
+	outline:0;
+	border:3px groove;
+	border-radius:3px;
+	float:right;
+}
+select.date{
+width:21%;
+outline:0;
+border:3px groove;
+border-radius:3px;
+padding:5px;
+float:right;
+}
+
+select#education{
+width:63%;
+outline:0;
+border:3px groove;
+border-radius:3px;
+padding:5px;
+float:right;
+margin-bottom:2px;
+}
+
+.hobbies{
+margin:5px;
+}
+
+.ge{
+margin:10px;
+}
+
+#agreement{
+	margin:20px;
+}
+
+#agree,.hobby
+{
+color:white;
+font-size:20px;
+font-style:italic;
+}
+
+.gender
+{
+color:white;
+font-size:20px;
+font-style:italic;
+}
+
+#submit,#clear
+{
+width:40%;
+margin:10px auto;
+background-color:#060;
+padding: 5px;
+color:white;
+font-size:20px;
+font-style:italic;
+border-radius:3px;
+}
+
+
